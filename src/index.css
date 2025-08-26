@@ -1,0 +1,70 @@
+
+body {
+  margin: 0;
+  background: white;
+  font-family: 'Times New Roman', Times, serif;
+}
+.cards{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap:25px;
+  padding: 20px;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 350px;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0px 14px 22px rgba(157, 93, 47, 0.962);
+  background: #fff;
+
+}
+
+
+.header {
+ 
+  background: #ff914d; 
+  color: white;
+  text-align: center;
+  padding: 15px;
+}
+
+.header h1 {
+  margin: 0;
+  font-size: 20px;
+}
+
+.header h4 {
+  margin: 5px 0 0;
+  font-weight: normal;
+}
+
+
+.info {
+  
+  background: #f1f1f1; 
+  padding: 15px;
+  font-size: 14px;
+}
+
+.info p {
+  margin: 8px 0;
+}
+
+
+.footer {
+
+  text-align: center;
+  padding: 10px;
+  font-size: 13px;
+  background: black;
+  color:white;
+  border-top: 1px solid #ddd;
+}
+.receipeBook{
+  text-align: center;
+  color: rgb(98, 16, 110);
+}
